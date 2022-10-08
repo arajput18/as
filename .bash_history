@@ -163,3 +163,53 @@ git clone https://github.com/arajput18/Simple_java.git
 clear
 systemctl start jenkins
 systemctl status jenkins
+clear
+mvn archetype:generate -DgroupId=com.web -DartifactId=Java-Web-Project -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+ls
+tree Java-Web-Project/
+apt install tree
+tree Java-Web-Project/
+git init
+git add .
+git commit -m "files added"
+ls
+rm -f Java-Web-Project/
+rm -rf Java-Web-Project/
+ls
+mvn archetype:generate -DgroupId=com.web -DartifactId=Java-Web-Project -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+cd Java-Web-Project/
+ls
+git init
+git add .
+git commit -m "added file"
+git remote add origin https://github.com/arajput18/web.git
+git remote -v
+git push origin master
+systemctl status jenkins
+java --version
+clear
+docker swarm init
+docker swarm join-token manager
+clear
+systemctl start jenkins
+systemctl status jenkins
+clear
+systemctl start jenkins'
+systemctl start jenkins
+systemctl status jenkins
+mvn archetype:generate -DgroupId=com.web -DartifactId=Java-Web-Project7 -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.web -DartifactId=Java-Web-Project -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.web -DartifactId=Java-Web-Project7 -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+clear
+mvn archetype:generate -DgroupId=com.web -DartifactId=Java-Web-Project7 -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+cd Java-Web-Project7/
+ls
+git init
+git add .
+git commit -m "files to be add"
+git remote add origin git@github.com:arajput18/repo1.git
+git push origin master
+git remote add origin https://github.com/arajput18/repo1.git
+git push origin master
+clear
+exit
